@@ -9,6 +9,8 @@ if (isset($_GET['id'])) {
     $result = mysqli_query($dbcon, $sql);
 
     if ($result) {
+        mdmds,ds
+        dklsndfksd
         header('location: index.php');
     } else {
         echo "Failed to delete." . mysqli_connect_error();
